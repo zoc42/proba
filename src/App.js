@@ -3,40 +3,40 @@ import './App.css'
 
 const App = () => {
     return (
-        <div>
- <header>
-  <nav className="navbar navbar-expand-lg">
-    <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="toggle-navigation">
-      <span className="navbar-toggler-icon"></span>
-    </button>
-      <div className="collapse navbar-collapse" id="navbar-content">
-        <ul className="navbar-nav">
-          <li className="nav-item">
-            <a className="nav-link" href="#">Home</a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-link" href="#">About</a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-link" href="#">Products</a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-link" href="#">Contacts</a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-link" href="#">Blogs</a>
-          </li>
+      <div className="wrapper">
+      <div className="multi_color_border"></div>
+      <div className="top_nav">
+          <div className="left">
+            <div className="logo"><p><span>Coding</span>Market</p></div>
+            <div className="search_bar">
+                <input type="text" placeholder="Search" />
+            </div>
+        </div> 
+        <div className="right">
+          <ul>
+            <li><a href="#">Whats Next</a></li>
+            <li><a href="#">LogIn</a></li>
+            <li><a href="#">SignUp</a></li>
+            <li><a href="#">Post a Job</a></li>
+          </ul>
+        </div>
+      </div>
+      <div className="bottom_nav">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Profile</a></li>
+          <li><a href="#">Writing</a></li>
+          <li><a href="#">Design</a></li>
+          <li><a href="#">Marketing</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Map</a></li>
+          <li><a href="#">Articles</a></li>
         </ul>
-      </div>
-    </nav>
-    <div className="box">
-        <div className="box-1"></div>
-        <div className="box-2"></div>
-      </div>
-    </header>
-    <section>
-      <h1 className="text-center">Hello..!!!</h1>
-    </section>
+    </div>
+    
+    <div className="banner">
+      <img src="https://i.imgur.com/iFaKR9k.png" alt="banner_img" />
+    </div>
   </div>
     )
 }
