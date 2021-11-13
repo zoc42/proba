@@ -8,18 +8,16 @@
   text-decoration: none;
   font-family: "Josefin Sans", sans-serif;
 }
-
 .wrapper .multi_color_border{
   width: 100%;
   height: 5px;
-  background: #494949;
+  background: #37a000;
 }
 
 .wrapper .top_nav{
   margin-top: 5px;
   width: 100%;
   height: 65px;
-  background: #fff;
   padding: 0 50px;
   display: flex;
   justify-content: space-between;
@@ -114,6 +112,9 @@
 .wrapper .banner img{
   width: 100%;
   height: 400px;
+}
+.nav-color{
+  background-color: #aaa;
 }
 @media only screen and (max-width: 600px) {
   .wrapper .top_nav{

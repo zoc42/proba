@@ -1,28 +1,18 @@
 import React from 'react'
 import {Nav, Navbar, NavDropdown} from 'react-bootstrap'
-import logo from './logo.svg'
 
 const Header = () => {
     return (
         <div className="wrapper">
             <div className="multi_color_border"></div>
-                <div className="top_nav">
+                <div className="top_nav bg-dark">
                     <div className="left">
-                        <div className="logo"><p><span>Coding</span>Market</p></div>
-                            <div className="search_bar">
-                                <input type="text" placeholder="Search" />
-                             </div>
+                        <div className="logo">
+                        <img src="/images/fextralife-logo114.png" alt="fextra" />
+                        </div>
                         </div> 
-                    <div className="right">
-                        <ul>
-                            <li><a href="#">Whats Next</a></li>
-                            <li><a href="#">LogIn</a></li>
-                            <li><a href="#">SignUp</a></li>
-                            <li><a href="#">Post a Job</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <Navbar bg="dark" variant="dark"
+            </div>
+                <Navbar bg="bg-secondary"
         sticky="top" expand="sm" collapseOnSelect>
 
         <Navbar.Toggle className="coloring" />
