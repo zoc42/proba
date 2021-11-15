@@ -1,5 +1,6 @@
 import React from 'react'
 import {Nav, Navbar, NavDropdown} from 'react-bootstrap'
+import logo from '../images/fextralife-logo114.png'
 
 const Header = () => {
     return (
@@ -8,12 +9,11 @@ const Header = () => {
                 <div className="top_nav bg-dark">
                     <div className="left">
                         <div className="logo">
-                        <img src="/images/fextralife-logo114.png" alt="fextra" />
+                        <img src={logo} alt="fextra" />
                         </div>
                         </div> 
             </div>
-                <Navbar bg="bg-secondary"
-        sticky="top" expand="sm" collapseOnSelect>
+                <Navbar className="nav-color">
 
         <Navbar.Toggle className="coloring" />
         <Navbar.Collapse>
