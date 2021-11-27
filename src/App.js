@@ -1,6 +1,7 @@
 import './App.css'
 import Header from './components/Header'
 import Main from './components/Main'
+import RandomPage from './components/RandomPage'
 
 const App = () => {
     return (
@@ -8,6 +9,8 @@ const App = () => {
       <Header />
       <br /> <br />
       <Main />
+      <br />
+      <RandomPage />
       </>
     )
 }
